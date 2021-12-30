@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
+  background-color: gainsboro;
 }
 
 main,
@@ -15,9 +16,35 @@ section {
 
 #img-div {
   padding: 10px 40px;
-  background-color: #ccc;
 }
 
 section {
   max-width: 70%;
+}
+
+#image {
+  display: block;
+  max-width: 90%;
+  margin: auto;
+}
+
+figcaption {
+  display: block;
+  font-size: 15px;
+  max-width: 90%;
+  margin: auto;
+}
+li {
+  padding: 10px;
+}
+blockquote p {
+  font-style: italic;
+}
+#last {
+  font-size: 16px;
+  font-weight: bold;
+}
+figure {
+  border: 2px solid rgb(185, 184, 184);
+  border-radius: 4px;
 }
